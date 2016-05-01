@@ -23,3 +23,7 @@ div.crm-container #noOfparticipants label{
   white-space: normal !important;
   padding: 5px !important;
 }
+
+.crm-section .label{
+ color: #000 !important;
+}
