@@ -1,0 +1,25 @@
+/**
+ * @file: CiviCRM Stylesheet
+ *
+ * NOTE: The main civicrm container has both class and id of crm-container
+ * Other civi blocks outside the main container also have the class crm-container (but not the id)
+ * All styles should start with .crm-container unless they are specific to the main div only
+ */
+ 
+div.crm-container label {
+  font-weight: normal;
+  display: inline;
+  color:#0bb !important;
+}
+
+div.crm-container fieldset label{
+  float: none;
+  white-space: normal !important;
+  padding: 5px !important;
+}
+
+div.crm-container #noOfparticipants label{
+ float: none;
+  white-space: normal !important;
+  padding: 5px !important;
+}
